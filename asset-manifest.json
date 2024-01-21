@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MalikWaqasS/Sweet-water-Tanker-Supplier/static/css/main.53e278e3.css",
+    "main.js": "/MalikWaqasS/Sweet-water-Tanker-Supplier/static/js/main.7af8a052.js",
+    "static/js/787.0e91e5de.chunk.js": "/MalikWaqasS/Sweet-water-Tanker-Supplier/static/js/787.0e91e5de.chunk.js",
+    "index.html": "/MalikWaqasS/Sweet-water-Tanker-Supplier/index.html",
+    "main.53e278e3.css.map": "/MalikWaqasS/Sweet-water-Tanker-Supplier/static/css/main.53e278e3.css.map",
+    "main.7af8a052.js.map": "/MalikWaqasS/Sweet-water-Tanker-Supplier/static/js/main.7af8a052.js.map",
+    "787.0e91e5de.chunk.js.map": "/MalikWaqasS/Sweet-water-Tanker-Supplier/static/js/787.0e91e5de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53e278e3.css",
+    "static/js/main.7af8a052.js"
+  ]
+}
