@@ -1,0 +1,173 @@
+/* Add this to your global or page-specific CSS */
+body {
+  height: 100%;
+  padding-top: 56px; /* Adjust this value to match the navbar height */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.blank{
+  color: red;
+}
+
+
+.custom-box {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.custom-box:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+  position: relative;
+  max-width: 600px; /* Adjust the container width as needed */
+  margin: auto;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 24px; /* Adjust the font size as needed */
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the background color and opacity as needed */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.gallery {
+  display: flex;
+  transition: left 0.5s ease-in-out;
+}
+
+.image {
+  width: 100%;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Add this to your CSS or use inline styles */
+.image-container {
+  width: 300px; /* Set your desired fixed width */
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+/* Add this CSS to your existing stylesheet or create a new one */
+.contact-container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px; /* Add padding if needed */
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.map-container {
+  width: 100%;
+  height: 300px; /* Adjust the height as needed */
+  margin-top: 20px; /* Add margin if needed */
+}
+
+/* Add your general footer styles here */
+
+.about.footer,
+.contact.footer,
+.services.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust the z-index if needed */
+}
+
